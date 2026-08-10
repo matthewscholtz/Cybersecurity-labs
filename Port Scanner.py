@@ -1,3 +1,12 @@
+"""
+Basic TCP Port Scanner
+Author: Matthew
+Description: A simple Python script that uses socket connections to check if a specific port is open or closed on a target host.
+How to use: Run the script and enter a target host when prompted, e.g., "scanme.nmap.org".
+Note to user: For educational and authorized testing purposes only.
+"""
+
+
 import socket
 
 target_host = input("Enter target IP or domain: ")  
